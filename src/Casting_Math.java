@@ -40,12 +40,35 @@ public class Casting_Math {
 //        System.out.println(a);
 //        System.out.println(b);
 
-        int a1 = 10; //primitive
-        Integer a2 = 10; //non-primitive
+//        int a1 = 10; //primitive
+//        Integer a2 = 10; //non-primitive
+//
+//        byte byte1 = 10;
+//        int int1 = byte1;
+//        System.out.println(byte1);
+//        System.out.println(int1);
 
-        byte byte1 = 10;
-        int int1 = byte1;
-        System.out.println(byte1);
-        System.out.println(int1);
+//        // cast qilish
+//        int b1 = 129; // -128 --> 127
+//        byte b2= (byte) b1;
+//        System.out.println(b2);
+
+//        int c=5;
+//        System.out.println(c++);
+//        System.out.println(c);
+//        c=6;
+//        System.out.println(++c);
+
+//        System.out.println(5==6);
+//        System.out.println(5==5);
+//        System.out.println(5!=6);
+//        System.out.println(5<6);
+//        System.out.println(5>6);
+//        System.out.println(!(5<6));
+
+        System.out.println(Math.max(51, 17));
+        int a=5, b=9, c=7;
+        int d=Math.max(a, b);
+        System.out.println(Math.max(d, c));
     }
 }
