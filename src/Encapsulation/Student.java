@@ -10,8 +10,7 @@ package Encapsulation;
  * ------------------------------
  * encapsulation is a programming technique that binds the class members (variables and methods) together &
  * prevents them from being accessed by other classes,
- * thereby we can keep variables and methods safes from outside interference & misuse
- *
+ * thereby we can keep variables and methods safes from outside interference & misuse.
  * Encapsulation means combining the data of our application and its manipulation in one place. It allows the state of an object to be accessed and modified through behavior. It reduces the coupling of modules and increases the cohesion inside them.
  */
 
