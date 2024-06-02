@@ -1,6 +1,6 @@
 package Rekursiya;
 
-public class Task1 {
+public class Palindrome {
     static boolean isPalindrome1(String str, int i) {
         if (i > str.length() / 2) return true;
         if(str.charAt(i) == str.charAt(str.length() - 1 - i)) return isPalindrome1(str, ++i);

@@ -41,7 +41,7 @@ public class Casting_Math {
 //        System.out.println(b);
 
 //        int a1 = 10; //primitive
-//        Integer a2 = 10; //non-primitive
+//        Integer a2 = 10; //non-primitiv
 //
 //        byte byte1 = 10;
 //        int int1 = byte1;
