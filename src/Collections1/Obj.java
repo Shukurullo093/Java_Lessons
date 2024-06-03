@@ -8,4 +8,12 @@ public class Obj {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Obj{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

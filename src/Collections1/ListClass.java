@@ -62,22 +62,23 @@ public class ListClass {
         objList.add(new Obj("Husan", 23));
 
         objList.sort(Comparator.comparing(o -> o.name));
-        objList.forEach(obj -> System.out.println(
-                obj.name
-                        .concat(" ")
-                        .concat(String.valueOf(obj.age))
-                        .concat(" yoshda")));
+        objList.forEach(System.out::println);
+//        objList.forEach(obj -> System.out.println(
+//                obj.name
+//                        .concat(" ")
+//                        .concat(String.valueOf(obj.age))
+//                        .concat(" yoshda")));
 
         System.out.println();
         objList.sort(Comparator.comparing(o -> o.age));
-        objList.forEach(obj -> System.out.println(
-                obj.name
-                        .concat(" ")
-                        .concat(String.valueOf(obj.age))
-                        .concat(" yoshda")));
+//        objList.forEach(obj -> System.out.println(
+//                obj.name
+//                        .concat(" ")
+//                        .concat(String.valueOf(obj.age))
+//                        .concat(" yoshda")));
 
-        for (Obj obj : objList) {
-            System.out.println(obj.name + " " + obj.age);
-        }
+//        for (Obj obj : objList) {
+//            System.out.println(obj.name + " " + obj.age);
+//        }
     }
 }
