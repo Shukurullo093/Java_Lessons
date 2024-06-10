@@ -38,7 +38,7 @@ public class SetClass {
                 "Tomato", "Potato", "Carrot", "Onion"));
         System.out.println(vegetablesSet);
 
-        Set<String> union=new HashSet<>(fruitsSet);
+        Set<String> union = new HashSet<>(fruitsSet);
         union.addAll(vegetablesSet);
         System.out.println(union);
 
@@ -47,7 +47,7 @@ public class SetClass {
         System.out.println(intersection);
         System.out.println("---------------------");
 
-        Set<Obj> objSet=new LinkedHashSet<>();
+        Set<Obj> objSet = new LinkedHashSet<>();
         objSet.add(new Obj("Shohrux", 21));
         objSet.add(new Obj("Behzod", 18));
         objSet.add(new Obj("Alisher", 19));
